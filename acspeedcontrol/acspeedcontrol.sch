@@ -1,0 +1,234 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_TRIAC_A1A2G D2
+U 1 1 5AC50ABE
+P 6450 4000
+F 0 "D2" H 6579 4046 50  0000 L CNN
+F 1 "Q_TRIAC_A1A2G" H 6579 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" V 6525 4025 50  0001 C CNN
+F 3 "~" V 6450 4000 50  0001 C CNN
+	1    6450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:DIAC D1
+U 1 1 5AC50B7D
+P 5950 4100
+F 0 "D1" H 5950 4366 50  0000 C CNN
+F 1 "DIAC" H 5950 4275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 4100 50  0001 C CNN
+F 3 "~" H 5950 4100 50  0001 C CNN
+	1    5950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5AC50C01
+P 4950 3450
+F 0 "R2" H 5020 3496 50  0000 L CNN
+F 1 "56k" H 5020 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4880 3450 50  0001 C CNN
+F 3 "~" H 4950 3450 50  0001 C CNN
+	1    4950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5AC50C36
+P 4450 3900
+F 0 "R1" H 4520 3946 50  0000 L CNN
+F 1 "3M9" H 4520 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4380 3900 50  0001 C CNN
+F 3 "~" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5AC50C6A
+P 6850 3450
+F 0 "R4" H 6920 3496 50  0000 L CNN
+F 1 "100 7W" H 6920 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_Power_L38.0mm_W9.0mm_P40.64mm" V 6780 3450 50  0001 C CNN
+F 3 "~" H 6850 3450 50  0001 C CNN
+	1    6850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:POT RV1
+U 1 1 5AC50DE5
+P 4950 3900
+F 0 "RV1" H 4880 3946 50  0000 R CNN
+F 1 "1M" H 4880 3855 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 4950 3900 50  0001 C CNN
+F 3 "~" H 4950 3900 50  0001 C CNN
+	1    4950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5AC50E3B
+P 4450 4350
+F 0 "C1" H 4565 4396 50  0000 L CNN
+F 1 "22n" H 4565 4305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4488 4200 50  0001 C CNN
+F 3 "~" H 4450 4350 50  0001 C CNN
+	1    4450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5AC50E8C
+P 5650 4350
+F 0 "C2" H 5765 4396 50  0000 L CNN
+F 1 "22n" H 5765 4305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5688 4200 50  0001 C CNN
+F 3 "~" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5AC50ED0
+P 6850 4350
+F 0 "C3" H 6965 4396 50  0000 L CNN
+F 1 "33n" H 6965 4305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L16.5mm_W4.7mm_P15.00mm_MKT" H 6888 4200 50  0001 C CNN
+F 3 "~" H 6850 4350 50  0001 C CNN
+	1    6850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5AC50F28
+P 5350 4100
+F 0 "R3" V 5143 4100 50  0000 C CNN
+F 1 "10k" V 5234 4100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5280 4100 50  0001 C CNN
+F 3 "~" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5AC50FEF
+P 3250 4300
+F 0 "J2" H 3170 3975 50  0000 C CNN
+F 1 "Conn_01x02" H 3170 4066 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3250 4300 50  0001 C CNN
+F 3 "~" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5AC5108A
+P 3250 3650
+F 0 "J1" H 3170 3325 50  0000 C CNN
+F 1 "Conn_01x02" H 3170 3416 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3250 3650 50  0001 C CNN
+F 3 "~" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 4200 3550 4200
+Wire Wire Line
+	3550 4200 3550 3650
+Wire Wire Line
+	3550 3650 3450 3650
+Wire Wire Line
+	3450 3550 3600 3550
+Wire Wire Line
+	3600 3550 3600 3250
+Wire Wire Line
+	3600 3250 4950 3250
+Wire Wire Line
+	6850 3250 6850 3300
+Wire Wire Line
+	4950 3250 4950 3300
+Connection ~ 4950 3250
+Wire Wire Line
+	4950 3250 6450 3250
+Wire Wire Line
+	3450 4300 3600 4300
+Wire Wire Line
+	3600 4300 3600 4600
+Wire Wire Line
+	3600 4600 4450 4600
+Wire Wire Line
+	6850 4600 6850 4500
+Wire Wire Line
+	5650 4500 5650 4600
+Connection ~ 5650 4600
+Wire Wire Line
+	5650 4600 6450 4600
+Wire Wire Line
+	4450 4500 4450 4600
+Connection ~ 4450 4600
+Wire Wire Line
+	4450 4600 5650 4600
+Wire Wire Line
+	4950 3600 4950 3700
+Wire Wire Line
+	4950 3700 4450 3700
+Wire Wire Line
+	4450 3700 4450 3750
+Connection ~ 4950 3700
+Wire Wire Line
+	4950 3700 4950 3750
+Wire Wire Line
+	4450 4050 4450 4100
+Wire Wire Line
+	6850 3600 6850 4200
+Wire Wire Line
+	4450 4100 4950 4100
+Connection ~ 4450 4100
+Wire Wire Line
+	4450 4100 4450 4200
+Wire Wire Line
+	4950 4050 4950 4100
+Connection ~ 4950 4100
+Wire Wire Line
+	4950 4100 5150 4100
+Wire Wire Line
+	5100 3900 5150 3900
+Wire Wire Line
+	5150 3900 5150 4100
+Connection ~ 5150 4100
+Wire Wire Line
+	5150 4100 5200 4100
+Wire Wire Line
+	5500 4100 5650 4100
+Wire Wire Line
+	5650 4200 5650 4100
+Connection ~ 5650 4100
+Wire Wire Line
+	5650 4100 5800 4100
+Wire Wire Line
+	6100 4100 6300 4100
+Wire Wire Line
+	6450 3850 6450 3250
+Connection ~ 6450 3250
+Wire Wire Line
+	6450 3250 6850 3250
+Wire Wire Line
+	6450 4150 6450 4600
+Connection ~ 6450 4600
+Wire Wire Line
+	6450 4600 6850 4600
+$EndSCHEMATC
