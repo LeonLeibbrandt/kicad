@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:nanoa4988-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L nanoa4988-rescue:MCU_Module_Arduino_Nano_v3.x-RESCUE-nanoa4988 A1
+L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 5AB0D5C3
 P 2900 3200
 F 0 "A1" H 4150 3450 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 2900 2200 50
 	-1   0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Driver_Motor_Pololu_Breakout_A4988-RESCUE-nanoa4988 A2
+L Driver_Motor:Pololu_Breakout_A4988 A2
 U 1 1 5AB0D6AA
 P 5650 1700
 F 0 "A2" H 5650 2700 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "https://www.pololu.com/product/2980/pictures" H 5750 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Driver_Motor_Pololu_Breakout_A4988-RESCUE-nanoa4988 A3
+L Driver_Motor:Pololu_Breakout_A4988 A3
 U 1 1 5AB0D71C
 P 5650 3600
 F 0 "A3" H 5650 4500 50  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "https://www.pololu.com/product/2980/pictures" H 5750 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Driver_Motor_Pololu_Breakout_A4988-RESCUE-nanoa4988 A4
+L Driver_Motor:Pololu_Breakout_A4988 A4
 U 1 1 5AB0D791
 P 5650 5700
 F 0 "A4" H 5650 6700 50  0000 C CNN
@@ -59,7 +58,7 @@ F 3 "https://www.pololu.com/product/2980/pictures" H 5750 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Device_CP1-RESCUE-nanoa4988 C1
+L Device:CP1 C1
 U 1 1 5AB0D835
 P 6300 1250
 F 0 "C1" H 6415 1296 50  0000 L CNN
@@ -70,7 +69,7 @@ F 3 "~" H 6300 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Device_CP1-RESCUE-nanoa4988 C2
+L Device:CP1 C2
 U 1 1 5AB0D932
 P 6300 3150
 F 0 "C2" H 6415 3196 50  0000 L CNN
@@ -81,7 +80,7 @@ F 3 "~" H 6300 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Device_CP1-RESCUE-nanoa4988 C3
+L Device:CP1 C3
 U 1 1 5AB0D9D4
 P 6300 5250
 F 0 "C3" H 6415 5296 50  0000 L CNN
@@ -92,7 +91,7 @@ F 3 "~" H 6300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Connector_Generic_Conn_01x04-RESCUE-nanoa4988 J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5AB0DB82
 P 7300 1700
 F 0 "J1" H 7380 1692 50  0000 L CNN
@@ -103,7 +102,7 @@ F 3 "~" H 7300 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Connector_Generic_Conn_01x04-RESCUE-nanoa4988 J2
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5AB0DC34
 P 7300 3600
 F 0 "J2" H 7380 3592 50  0000 L CNN
@@ -114,7 +113,7 @@ F 3 "~" H 7300 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Connector_Generic_Conn_01x04-RESCUE-nanoa4988 J3
+L Connector_Generic:Conn_01x04 J3
 U 1 1 5AB0DC9B
 P 7300 5700
 F 0 "J3" H 7380 5692 50  0000 L CNN
@@ -125,7 +124,7 @@ F 3 "~" H 7300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nanoa4988-rescue:Connector_Generic_Conn_01x02-RESCUE-nanoa4988 J4
+L Connector_Generic:Conn_01x02 J4
 U 1 1 5AB0DE10
 P 8050 850
 F 0 "J4" H 8130 842 50  0000 L CNN
