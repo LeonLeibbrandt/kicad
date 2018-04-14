@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:nano8825withstep-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -690,7 +689,7 @@ L Connector_Generic:Conn_01x02_Female J8
 U 1 1 5AD2DFC9
 P 2000 4450
 F 0 "J8" V 1940 4262 50  0000 R CNN
-F 1 "Conn_01x02_Female" V 2100 4800 50  0000 R CNN
+F 1 "Conn_01x02_Female" V 2050 4800 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2000 4450 50  0001 C CNN
 F 3 "~" H 2000 4450 50  0001 C CNN
 	1    2000 4450
