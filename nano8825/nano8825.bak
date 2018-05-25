@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:nano8825-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -685,7 +686,7 @@ Connection ~ 4100 5900
 Wire Wire Line
 	4100 5900 4100 6500
 $Comp
-L Connector_Generic:Conn_01x02_Female J8
+L nano8825-rescue:Conn_01x02_Female-Connector_Generic J8
 U 1 1 5AD2DFC9
 P 2000 4450
 F 0 "J8" V 1940 4262 50  0000 R CNN
