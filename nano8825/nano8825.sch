@@ -92,17 +92,6 @@ F 3 "~" H 6000 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x03 SW1
-U 1 1 5AC2870A
-P 4500 2900
-F 0 "SW1" H 4500 2600 50  0000 C CNN
-F 1 "SW_DIP_x03" H 4500 2700 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile" H 4500 2900 50  0001 C CNN
-F 3 "" H 4500 2900 50  0001 C CNN
-	1    4500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_DIP_x03 SW2
 U 1 1 5AC28788
 P 4500 4800
@@ -322,27 +311,15 @@ Wire Wire Line
 Connection ~ 4100 4600
 Wire Wire Line
 	4100 4600 4100 4700
-Wire Wire Line
-	4100 2700 4200 2700
 Connection ~ 4100 2700
 Wire Wire Line
 	4100 2700 4100 2800
-Wire Wire Line
-	4100 2800 4200 2800
 Connection ~ 4100 2800
 Wire Wire Line
 	4100 2800 4100 2900
-Wire Wire Line
-	4100 2900 4200 2900
 Connection ~ 4100 2900
 Wire Wire Line
 	4100 2900 4100 3900
-Wire Wire Line
-	4800 2700 5000 2700
-Wire Wire Line
-	4800 2800 5000 2800
-Wire Wire Line
-	4800 2900 5000 2900
 Wire Wire Line
 	4800 4600 5000 4600
 Wire Wire Line
@@ -709,4 +686,35 @@ Wire Wire Line
 	2300 4000 1900 4000
 Wire Wire Line
 	1900 4000 1900 4250
+Wire Wire Line
+	4100 2700 4200 2700
+Wire Wire Line
+	4100 2800 4200 2800
+Wire Wire Line
+	4100 2900 4200 2900
+Wire Wire Line
+	4800 2900 5000 2900
+Wire Wire Line
+	4800 2800 5000 2800
+Wire Wire Line
+	4800 2700 5000 2700
+$Comp
+L Switch:SW_DIP_x03 SW1
+U 1 1 5AC2870A
+P 4500 2900
+F 0 "SW1" H 4500 2600 50  0000 C CNN
+F 1 "SW_DIP_x03" H 4500 2700 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile" H 4500 2900 50  0001 C CNN
+F 3 "" H 4500 2900 50  0001 C CNN
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 2900 6700 0    50   ~ 0
+Z LIMIT
+Text Notes 2650 6750 0    50   ~ 0
+Y\nLIMIT
+Text Notes 2300 6750 0    50   ~ 0
+X\nLIMIT
+Text Notes 1850 4600 0    50   ~ 0
+Probe
 $EndSCHEMATC

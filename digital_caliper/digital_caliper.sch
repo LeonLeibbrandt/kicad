@@ -1,0 +1,352 @@
+EESchema Schematic File Version 4
+LIBS:digital_caliper-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x04_Male J2
+U 1 1 5B3606F3
+P 5300 1800
+F 0 "J2" V 5200 1400 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 5300 1450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Horizontal" H 5300 1800 50  0001 C CNN
+F 3 "~" H 5300 1800 50  0001 C CNN
+	1    5300 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q2
+U 1 1 5B360AD9
+P 6000 2450
+F 0 "Q2" H 6205 2496 50  0000 L CNN
+F 1 "2N7000" H 6205 2405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6200 2375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6000 2450 50  0001 L CNN
+	1    6000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7000 Q3
+U 1 1 5B360B26
+P 6000 3400
+F 0 "Q3" H 6205 3446 50  0000 L CNN
+F 1 "2N7000" H 6205 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6200 3325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6000 3400 50  0001 L CNN
+	1    6000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5B360BC1
+P 5850 3750
+F 0 "R5" V 5643 3750 50  0000 C CNN
+F 1 "100k" V 5734 3750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5780 3750 50  0001 C CNN
+F 3 "~" H 5850 3750 50  0001 C CNN
+	1    5850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5B360C16
+P 5850 2800
+F 0 "R4" V 5643 2800 50  0000 C CNN
+F 1 "100k" V 5734 2800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5780 2800 50  0001 C CNN
+F 3 "~" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5B360C63
+P 3900 2700
+F 0 "R1" H 3970 2746 50  0000 L CNN
+F 1 "120k" H 3970 2655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3830 2700 50  0001 C CNN
+F 3 "~" H 3900 2700 50  0001 C CNN
+	1    3900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5B360CC8
+P 3900 3350
+F 0 "R2" H 3970 3396 50  0000 L CNN
+F 1 "100k" H 3970 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3830 3350 50  0001 C CNN
+F 3 "~" H 3900 3350 50  0001 C CNN
+	1    3900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5B360D0E
+P 4300 3350
+F 0 "R3" H 4370 3396 50  0000 L CNN
+F 1 "100k" H 4370 3305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4230 3350 50  0001 C CNN
+F 3 "~" H 4300 3350 50  0001 C CNN
+	1    4300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 5B3612C7
+P 4100 3700
+F 0 "#PWR0101" H 4100 3450 50  0001 C CNN
+F 1 "GNDREF" H 4105 3527 50  0000 C CNN
+F 2 "" H 4100 3700 50  0001 C CNN
+F 3 "" H 4100 3700 50  0001 C CNN
+	1    4100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2850 3900 2900
+Wire Wire Line
+	4000 2900 3900 2900
+Connection ~ 3900 2900
+Wire Wire Line
+	3900 2900 3900 3200
+Wire Wire Line
+	3900 2550 3900 2500
+Wire Wire Line
+	3900 2500 4300 2500
+Wire Wire Line
+	4300 2500 4300 2700
+Wire Wire Line
+	3900 3500 3900 3650
+Wire Wire Line
+	3900 3650 4100 3650
+Wire Wire Line
+	4300 3650 4300 3500
+Wire Wire Line
+	4100 3700 4100 3650
+Connection ~ 4100 3650
+Wire Wire Line
+	4100 3650 4300 3650
+$Comp
+L power:GNDREF #PWR0102
+U 1 1 5B3614B7
+P 4950 2100
+F 0 "#PWR0102" H 4950 1850 50  0001 C CNN
+F 1 "GNDREF" H 4955 1927 50  0000 C CNN
+F 2 "" H 4950 2100 50  0001 C CNN
+F 3 "" H 4950 2100 50  0001 C CNN
+	1    4950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0103
+U 1 1 5B361E8B
+P 6500 4000
+F 0 "#PWR0103" H 6500 3750 50  0001 C CNN
+F 1 "GNDREF" H 6300 3950 50  0000 C CNN
+F 2 "" H 6500 4000 50  0001 C CNN
+F 3 "" H 6500 4000 50  0001 C CNN
+	1    6500 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 5450 1800 1    50   ~ 0
++1.5V
+Text Notes 5350 1800 1    50   ~ 0
+ClOCK
+Text Notes 5250 1800 1    50   ~ 0
+DATA
+Text Notes 5150 1800 1    50   ~ 0
+GND
+Wire Wire Line
+	5100 2000 5100 2050
+Wire Wire Line
+	5100 2050 4950 2050
+Wire Wire Line
+	4950 2050 4950 2100
+$Comp
+L power:GNDREF #PWR0104
+U 1 1 5B3657AD
+P 6500 3050
+F 0 "#PWR0104" H 6500 2800 50  0001 C CNN
+F 1 "GNDREF" H 6300 3000 50  0000 C CNN
+F 2 "" H 6500 3050 50  0001 C CNN
+F 3 "" H 6500 3050 50  0001 C CNN
+	1    6500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3000 6500 3050
+Wire Wire Line
+	6500 3950 6500 4000
+Wire Wire Line
+	6000 2800 6100 2800
+Wire Wire Line
+	6000 3750 6100 3750
+Wire Wire Line
+	5300 2800 5700 2800
+Wire Wire Line
+	5200 3750 5700 3750
+Wire Wire Line
+	6500 2600 6500 2550
+Wire Wire Line
+	6500 3550 6500 3500
+Wire Wire Line
+	4300 3100 4300 3150
+Wire Wire Line
+	5200 2000 5200 3750
+Wire Wire Line
+	4300 3150 5100 3150
+Wire Wire Line
+	5100 3150 5100 2150
+Wire Wire Line
+	5100 2150 5400 2150
+Wire Wire Line
+	5400 2150 5400 2050
+Connection ~ 4300 3150
+Wire Wire Line
+	4300 3150 4300 3200
+Wire Wire Line
+	5400 2150 6100 2150
+Wire Wire Line
+	6100 2150 6100 2250
+Connection ~ 5400 2150
+Wire Wire Line
+	5100 3150 6100 3150
+Wire Wire Line
+	6100 3150 6100 3200
+Connection ~ 5100 3150
+Wire Wire Line
+	6100 2650 6100 2800
+Connection ~ 6100 2800
+Wire Wire Line
+	6100 2800 6200 2800
+Wire Wire Line
+	6100 3600 6100 3750
+Connection ~ 6100 3750
+Wire Wire Line
+	6100 3750 6200 3750
+Text Notes 4900 1500 0    50   ~ 0
+Connections as seen\nfrom LCD Side
+$Comp
+L Device:CP1_Small C1
+U 1 1 5B36B4DB
+P 5550 2000
+F 0 "C1" H 5641 2046 50  0000 L CNN
+F 1 "10u" H 5641 1955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5550 2000 50  0001 C CNN
+F 3 "~" H 5550 2000 50  0001 C CNN
+	1    5550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2050 5450 2050
+Wire Wire Line
+	5450 2050 5450 1900
+Wire Wire Line
+	5450 1900 5550 1900
+Connection ~ 5400 2050
+Wire Wire Line
+	5400 2050 5400 2000
+Wire Wire Line
+	5100 2050 5100 2100
+Wire Wire Line
+	5100 2100 5550 2100
+Connection ~ 5100 2050
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5B36CCA6
+P 4700 4550
+F 0 "J1" V 4573 4262 50  0000 R CNN
+F 1 "Conn_01x05" V 4664 4262 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 4700 4550 50  0001 C CNN
+F 3 "~" H 4700 4550 50  0001 C CNN
+	1    4700 4550
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3900 2500 3500 2500
+Wire Wire Line
+	3500 2500 3500 4300
+Wire Wire Line
+	3500 4300 4500 4300
+Wire Wire Line
+	4500 4300 4500 4350
+Connection ~ 3900 2500
+Wire Wire Line
+	4600 4050 4600 4350
+Wire Wire Line
+	5450 3400 5450 4150
+Wire Wire Line
+	5450 3400 5800 3400
+Wire Wire Line
+	5300 2000 5300 2800
+Wire Wire Line
+	5800 2450 5350 2450
+Wire Wire Line
+	5350 2450 5350 4050
+Wire Wire Line
+	4600 4050 5350 4050
+Wire Wire Line
+	6500 2550 7300 2550
+Wire Wire Line
+	7300 2550 7300 4300
+Wire Wire Line
+	6500 3500 7150 3500
+Wire Wire Line
+	7150 3500 7150 4250
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5B4CCAA2
+P 4200 2900
+F 0 "Q1" H 4391 2946 50  0000 L CNN
+F 1 "2N3904" H 4391 2855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4400 2825 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4200 2900 50  0001 L CNN
+	1    4200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q4
+U 1 1 5B4CCBD8
+P 6400 2800
+F 0 "Q4" H 6591 2846 50  0000 L CNN
+F 1 "2N3904" H 6591 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6600 2725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6400 2800 50  0001 L CNN
+	1    6400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q5
+U 1 1 5B4CCC2C
+P 6400 3750
+F 0 "Q5" H 6591 3796 50  0000 L CNN
+F 1 "2N3904" H 6591 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6600 3675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6400 3750 50  0001 L CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4150 4800 4150
+Wire Wire Line
+	4800 4150 4800 4350
+Wire Wire Line
+	4700 4300 4700 4350
+Wire Wire Line
+	4700 4300 7300 4300
+Wire Wire Line
+	7150 4250 4900 4250
+Wire Wire Line
+	4900 4250 4900 4350
+$EndSCHEMATC
