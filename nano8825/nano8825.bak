@@ -709,4 +709,12 @@ F 3 "" H 4500 2900 50  0001 C CNN
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 2900 6700 0    50   ~ 0
+Z LIMIT
+Text Notes 2650 6750 0    50   ~ 0
+Y\nLIMIT
+Text Notes 2300 6750 0    50   ~ 0
+X\nLIMIT
+Text Notes 1850 4600 0    50   ~ 0
+Probe
 $EndSCHEMATC

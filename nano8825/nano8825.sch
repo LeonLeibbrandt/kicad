@@ -300,7 +300,7 @@ Wire Wire Line
 	4100 4800 4200 4800
 Connection ~ 4100 4800
 Wire Wire Line
-	4100 4800 4100 5800
+	4100 4800 4100 5700
 Wire Wire Line
 	4100 4700 4200 4700
 Connection ~ 4100 4700
@@ -319,7 +319,7 @@ Wire Wire Line
 	4100 2800 4100 2900
 Connection ~ 4100 2900
 Wire Wire Line
-	4100 2900 4100 3900
+	4100 2900 4100 3800
 Wire Wire Line
 	4800 4600 5000 4600
 Wire Wire Line
@@ -717,4 +717,19 @@ Text Notes 2300 6750 0    50   ~ 0
 X\nLIMIT
 Text Notes 1850 4600 0    50   ~ 0
 Probe
+Wire Wire Line
+	5000 3800 4100 3800
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 3800 4100 3900
+Wire Wire Line
+	5000 1900 4100 1900
+Wire Wire Line
+	4100 1900 4100 2000
+Connection ~ 4100 2000
+Wire Wire Line
+	5000 5700 4100 5700
+Connection ~ 4100 5700
+Wire Wire Line
+	4100 5700 4100 5800
 $EndSCHEMATC
