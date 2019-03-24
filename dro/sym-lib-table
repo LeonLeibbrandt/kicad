@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BluePillF4)(type Legacy)(uri /home/leon/Projects/kicad/stm/Squonk42/BluePillF4.lib)(options "")(descr ""))
+  (lib (name mplewis)(type Legacy)(uri /home/leon/Projects/kicad/mplewis/mplewis.lib)(options "")(descr ""))
+)
